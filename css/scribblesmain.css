@@ -1,0 +1,173 @@
+/****** BASE STYLE - Whole Page ******/
+
+body {
+	background-color: #f2f1f5;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+
+/****** Header Styles ******/
+
+header, nav, footer {
+	display: block;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.row::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/******** NavBar Display **********/
+
+nav {
+	position: fixed;
+  top: 0;
+	width: 100%;
+	margin: 0;
+}
+
+nav ul {
+	background-color: #ffffcc;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+ul.topnav li {
+	list-style: none;
+	float: left;
+	color: #666666;
+}
+
+ul.topnav li.topnav-right {
+	float: right;
+	color: #666666;
+
+}
+
+ul.topnav li /*a*/ {
+	display: block;
+	text-decoration: none;
+	min-height: 16px;
+	text-align: center;
+	padding: 14px;
+	text-transform: uppercase;
+	/*text-color: #666666;*/
+}
+
+/*add "a" to this list when links are attached to nav bar*/
+ul.topnav li:hover {
+	background-color: #666666;
+	color: white;
+}
+
+ul.topnav li.hamburgerIcon {
+	display: none;
+}
+
+
+/**MOBILE STYLES** ASK KATIE OR ALEX ABOUT ORDER FOR MEDIA QUERY**/
+
+@media only screen and (max-width: 580px){
+	ul.topnav li.topnav-right {
+		display: none;
+}
+	ul.topnav li.hamburgerIcon {
+		display: block;
+		float: right;
+	}
+
+	ul.topnav.responsive li.hamburgerIcon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	ul.topnav.responsive {
+		position: relative;
+	}
+
+	ul.topnav.responsive li {
+		display: inline;
+		float: none;
+	}
+
+	ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+	.col-6 {
+		width: 100%;
+		margin: 0;
+	}
+
+	.leftSide-col,
+	.rightSide-col {
+		margin: 15px;
+	}
+}
+
+/*
+} */
+
+h2.large {
+	color: #666666;
+	font-size: 30px;
+}
+
+/****Whitespace****/
+
+#whitespace {
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	margin: 40px;
+	border: 10px;
+	padding: 25px;
+}
+
+h1.intro {
+	color: #666666;
+	font-size: 50px;
+
+}
+
+.introP {
+	color: #666666;
+	font-size: 18px;
+
+}
+
+.latestEntry {
+	width: 100%;
+	margin: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.sotdP {
+	color: #666666;
+	font-size: 25px;
+	text-align: center;
+}
