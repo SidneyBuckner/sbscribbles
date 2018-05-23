@@ -1,4 +1,5 @@
-# Hello, my name is Sidney, and I am a Developer.
+# Hello!
+# My name is Sidney, and I am a Developer.
 *I design and build website experiences that make people's lives simple.*
 
 ---
