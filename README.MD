@@ -44,7 +44,7 @@ If you like what you see and want to know more, lets unravel the scribbles and s
 5/23/18
 + Initial Commit
 + Adding js directory
-+ Updating ABOUTME.md
++ Updating README.md
 
 #### Features to Come:
 
